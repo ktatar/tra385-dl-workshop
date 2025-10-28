@@ -152,3 +152,17 @@ section.transition2 strong {
 
 }
 
+img[alt~="align-right"] {
+    float: right;
+}
+
+img[alt~="align-left"] {
+    float: left;
+}
+
+  img[alt~='align-center'] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
